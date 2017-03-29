@@ -1,0 +1,9 @@
+---
+# See http://docs.ansible.com/ansible/playbooks_best_practices.html#directory-layout for a description of the
+# "Master Playbook"
+- name: "server"
+  hosts: all
+  become: true
+  become_user: "root"
+  roles:
+    - "motd"
