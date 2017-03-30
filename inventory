@@ -1,1 +1,2 @@
+[servers]
 localhost ansible_become=true

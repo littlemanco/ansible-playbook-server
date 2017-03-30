@@ -1,0 +1,4 @@
+---
+motd_urls:
+  - message: "Server setup is managed by ansible. See:"
+    url: "https://github.com/littlemanco/ansible-playbook-server"
