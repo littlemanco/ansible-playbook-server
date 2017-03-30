@@ -18,18 +18,20 @@ Execution Instruction
 
 The following command will execute the playbook:
 
-```
+```bash
 $ ansible-playbook -i inventory server.yaml
 ```
 
 Authentication is handled out of band; it assumes that the user will have the appropriate `${HOME}/.ssh/config` file
 set up. Such a file will look something like the following:
 
-```
+```yaml
 Host host01*
     User debian
     IdentityFile path/to/the/private/key.pem
 ```
 
-Contact: hello@andrewhowden.com
-Web:     https://www.andrewhowden.com/
+| Type     | Address                       |
+|----------|-------------------------------|
+| Contact: | hello@andrewhowden.com        |
+| Web:     | https://www.andrewhowden.com/ |
