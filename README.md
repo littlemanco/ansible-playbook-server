@@ -1,17 +1,17 @@
 Ansible Server
 ==============
 
-This is the ansible server playbok. It is designed to be executed on servers.
+This is the ansible server playbook. It is designed to be executed on servers.
 
 More generally, a server is likely to be a stateful node that has some application deployed on it (such as a
 kubernetes worker). While as much as possible I tend to build immuatable infrastructure, there are still some
-nodes that must be managed on an ongoing basis (such as the HOST nodes for kubelet, docker build nodes etc) 
+nodes that must be managed on an ongoing basis (such as the HOST nodes for kubelet, docker build nodes etc).
 
 Customization
 -------------
 
 If there are tasks that are specific to this property, create roles for them. If the tasks can be used, create them in
-another repository, and add that repository as a submodule to this one
+another repository, and add that repository as a submodule to this one.
 
 Execution Instruction
 ---------------------
